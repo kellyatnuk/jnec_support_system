@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #333;
+    color: #fff;
+  }
+  #navbarcollapse{
+    text-align: left;
+  }
+  .navbar-nav{
+    text-align: right;
+    text-decoration: none;
+  }

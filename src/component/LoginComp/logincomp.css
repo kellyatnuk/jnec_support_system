@@ -1,0 +1,30 @@
+#main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+    max-width: auto;
+    width: 60vh;
+
+  }
+  #sign-in-form {
+  padding: 4px;
+    width: 100vh;
+  }
+
+
+  .form-control:focus {
+   
+    padding: 8px 30px;
+  }
+  
+  .position-relative{
+    padding: 9px 30px;
+  }
+  .btn{
+    background-color: rgb(132, 210, 246);
+  }
+  .link{
+    padding: 2px;
+  }
