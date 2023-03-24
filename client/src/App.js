@@ -1,7 +1,7 @@
 import "./App.css";
 import NavbarComp from "./component/NavbarComp/NavbarComp";
-import HomeComp from "./component/HomeComp/HomeComp";
-import RegisterComp from "./component/RegisterComp/RegisterComp";
+import HomeComp from "./component/User/HomeComp/HomeComp";
+import RegisterComp from "./component/User/RegisterComp/RegisterComp";
 import LoginComp from "./component/LoginComp/LoginComp";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AdminHomeComp from "./component/Admin/AdminHomeComp/AdminHomeComp";
@@ -13,6 +13,7 @@ function App() {
         <NavbarComp />
         <Routes>
           <Route path="/" element={<HomeComp />} />
+          <Route path="/register" element={<RegisterComp />} />
           <Route path="/admin" element={<AdminHomeComp />} />
         </Routes>
       </BrowserRouter>
